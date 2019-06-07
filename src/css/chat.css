@@ -1,0 +1,331 @@
+.chat-container{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	height: 100vh;
+}
+
+.contenedorprincipio{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+.titulocontacto{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	background-color: #3E9CF9;
+	color: #FFFFFF;
+}
+
+.anchotitulo{
+	width: calc(100% - 40px);
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 0px 0px 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.anchoopciones{
+	width: 40px;
+	height: 40px;
+}
+
+.imgopciones{
+	width: 30px;
+	height: 30px;
+	margin: 0px 5px 5px 5px;
+}
+
+.imgopciones23{
+	width: 30px;
+	height: 30px;
+	margin: 5px 5px 5px 5px;
+}
+
+.listacontactos{
+	width: 100%;
+	height: calc(100% - 40px);
+	overflow-y: auto;
+	border-left: 2px solid #D8D8D8;
+	border-right: 2px solid #D8D8D8;
+}
+
+.acontactos1{
+	height: 60px;
+	color: #000000;
+}
+
+.acontactos{
+	width: 60px;
+	height: 60px;
+	color: #000000;
+}
+
+.acontactos2{
+	width: calc(100% - 60px);
+	height: 60px;
+	color: #000000;
+}
+
+.fondocontacto{
+	height: 60px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.imagencontacto{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 5px 5px 5px 5px;
+}
+
+.nombrecontacto{
+	width: calc(100% - 100px);
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.usuariosestado1{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	margin: 20px 15px 20px 15px;
+	color: #FFFFFF;
+}
+
+.usuariosestado2{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: blue;
+	border-radius: 50%;
+	margin: 20px 15px 20px 15px;
+	color: #FFFFFF;
+}
+
+.usuariosestado{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 10px 5px 10px 5px;
+}
+
+.imagenconnect{
+	background: rgb(66, 183, 42);
+	border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin: 15px 15px 15px 15px;
+}
+
+.imagenconnect2{
+	background: rgb(66, 183, 42);
+	border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+
+.fondosimagen{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#chat-window{
+	position: relative;
+	color: #555;
+	height: calc(100% - 130px);
+}
+
+.anclafinal{
+	display: none;
+}
+
+#output{
+	height: 100%;
+	overflow-y: auto;
+}
+
+#output div div.right{
+	position: relative;
+    top: 0px;
+    max-width: 80%;
+    height: auto;
+    float: right;
+    padding: 0px 15px 0px 15px;
+}
+
+#output div div.left{
+	position: relative;
+    top: 0px;
+    max-width: 80%;
+    height: auto;
+    float: left;
+    padding: 0px 15px 0px 15px;
+}
+
+#output div div div.anchotextoright{
+	position: relative;
+	white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#output div div div.anchotextoleft{
+	position: relative;
+	white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#output div div div.msnright{
+    text-align: left;
+    padding: 10px;
+    font-size: 1em;
+    color: #000000;
+    background-color: #dcf8c6;
+    border-radius: 10px 10px 0px 10px;
+}
+
+#output div div div.msnleft{
+    text-align: left;
+    padding: 10px;
+    font-size: 1em;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 0px;
+}
+
+#output div div div.espacio{
+	position: relative;
+    width: 100px;
+    height: 10px;
+}
+
+input{
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: 0;
+	background: #eee;
+	display: block;
+	width: 100%;
+	color: #000000;
+}
+
+.actions{
+	width: 100%;
+	height: 20px;
+	padding: 0px 10px 0px 10px;
+	font-size: 14px;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+button{
+	background: #3E9CF9;
+	color: #fff;
+	font-size: 18px;
+	border: 0;
+	padding: 12px 0;
+	width: 100%;
+	border-radius: 0 0 2px 2px;
+}
+
+.borderradius{
+	border-radius: 50%;
+}
+
+/*Inicio chat contacto*/
+
+.chat-containercontacto{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	height: 40px;
+}
+
+.contenedorprincipiocontacto{
+	position: relative;
+	right: 0px;
+	bottom: 0px;
+	height: 40px;
+}
+
+/*Chat mensajes*/
+
+.fechafondos{
+	position: relative;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.fechamensajes{
+	position: absolute;
+	width: auto;
+    height: 40px;
+    background-color: #E6E6E6;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.horaright{
+    text-align: right;
+    font-size: 0.7em;
+    color: #000000;
+    background-color: #dcf8c6;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.horaleft{
+    text-align: right;
+    font-size: 0.7em;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 0px;
+}
+
+/*Ajustes caja envio*/
+
+#message{
+	width: calc(100% - 70px);
+	margin: 5px;
+	height: 50px;
+	border-radius: 30px;
+	border: 0px;
+}
+
+#submitmensajes{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 5px 5px 5px 0px;
+	padding: 0px;
+}
+
+.achat{
+	text-decoration: none;
+	color: #039be5;
+}
+
+.achat:hover{
+	color: #039be5;
+}
+
+*::-webkit-scrollbar { width: 5px !important; height: 5px !important; }
+*::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, 0.2); }
+*::-webkit-scrollbar-track { background-color: rgba(255,255,255,0.08); }

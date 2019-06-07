@@ -1,0 +1,50 @@
+.formularioshares{
+	padding: 10px;
+}
+
+.fondocompartir{
+	background-color: #E6E6E6;
+}
+
+textarea{
+	width: calc(100% - 10px);
+    min-width: 100%;
+    max-width: 100%;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    border: 0px;
+    padding: 10px;
+    color: #000000;
+    font-size: 0.9em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+label{
+	width: 45px;
+    height: 45px;
+    background: url(https://ultimateos.com/sweaghe/contenedor/basico/img/adjuntar.png) center center / cover no-repeat;
+    border-radius: 50%;
+    border: 0px;
+}
+
+.shares{
+	width: calc(100% - 1rem);
+    height: 45px;
+}
+
+#imagecompart{
+	display: none;
+}
+
+.mensaje{
+	color: #FF0000;
+	text-align: center;
+}
+
+.imgmini{
+	width: 45px;
+	height: 45px;
+}

@@ -1,0 +1,61 @@
+.formulariohistory{
+	padding-top: 10px;
+}
+
+.ifh{
+	position: relative;
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+}
+
+.p{
+	width: 100%;
+	height: auto;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #000000;
+}
+
+.p:hover{
+	color: #0000FF;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 100%;
+}
+
+.square{
+	position: relative;
+  	padding: 1em;
+	float:left;
+	margin-top:2%;
+	width: 32%;
+	margin-right:2%;
+	background: deepskyblue;
+}
+
+.lastchild{
+  	margin-right:0;
+}
+
+.square:before{
+	content:"";
+	display:block;
+	padding-top:100%;
+  	float: left;
+}
+
+.scrolldiv{
+	overflow-y: auto;
+}
+
+.imgopcionestitulo{
+	width: 30px;
+	height: 30px;
+	margin: 5px 5px 5px 5px;
+}

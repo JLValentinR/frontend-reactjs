@@ -1,0 +1,81 @@
+.fondetails{
+	padding-top: 10px;
+}
+
+.colzoom{
+	background-color: #FFFFFF;
+}
+
+.imagedetails{
+	position: absolute;
+	width: 100%;
+	height: 200px;
+}
+
+.fondoperfil{
+	display: inline-block;
+}
+
+.atrasdetails{
+	width: 40px;
+	height: 40px;
+}
+
+.atrasdetailstitulo{
+	width: calc(100% - 40px);
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+}
+
+.perfildetails{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+/*Imagen*/
+
+*{
+  box-sizing: border-box;
+}
+
+.wrapper2{
+	position: relative;
+  	width: 100%;
+}
+
+.square2{
+	width: 100%;
+}
+
+.square2:before{
+	content:"";
+	display:block;
+	padding-top:100%;
+}
+
+.piesmargin{
+	margin-top: 100px;
+}
+
+/*Favoritos*/
+
+.anchofavoritos{
+	height: 50px;
+}
+
+.favorito{
+	margin: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.favototal{
+	width: calc(100% - 50px);
+	height: 50px;
+	line-height: 55px;
+	font-size: 1.2em;
+}

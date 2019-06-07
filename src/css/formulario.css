@@ -1,0 +1,27 @@
+.containersweaghe{
+	height: 100vh;
+}
+
+.rowsweaghe{
+	height: 100%;
+}
+
+.formsweaghe{
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
+
+.fondoinvalido{
+	text-align: center;
+}
+
+.mensajesweaghe{
+	width: 100%;
+	color: #FF0000;
+	text-align: center;
+}
+
+.goo{
+	width: 25px;
+	height: 25px;
+}
